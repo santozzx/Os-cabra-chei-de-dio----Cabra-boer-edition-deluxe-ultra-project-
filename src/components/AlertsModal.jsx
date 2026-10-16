@@ -38,7 +38,7 @@ export default function AlertsModal({ isOpen, onClose, animals, onSelectAnimal, 
               Grau FAMACHA de Atenção (Anemia Parasitária)
             </span>
             {famachaAlerts.length === 0 ? (
-              <p className="text-xs text-stone-500 italic">Nenhum animal em alerta parasitário.</p>
+              <p className="text-xs text-stone-500 italic">Nenhum caprino Boer em alerta parasitário.</p>
             ) : (
               <div className="space-y-2">
                 {famachaAlerts.map(a => (

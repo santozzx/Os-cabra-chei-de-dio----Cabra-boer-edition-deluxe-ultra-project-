@@ -11,7 +11,7 @@ import AlertsModal from './components/AlertsModal';
 import { MOCK_ANIMALS } from './data/mockBoerData';
 
 export default function App() {
-  const [animals, setAnimals] = useState(MOCK_ANIMALS);
+  const [animals, setAnimals] = useState(() => MOCK_ANIMALS.filter(animal => animal.species === 'Caprino' && animal.breed === 'Boer'));
   const [activeTab, setActiveTab] = useState('dashboard');
   const [selectedAnimal, setSelectedAnimal] = useState(null);
   const [isNewAnimalModalOpen, setIsNewAnimalModalOpen] = useState(false);
@@ -22,10 +22,10 @@ export default function App() {
     a => a.famachaScore >= 3 || (a.vaccines && a.vaccines.some(v => v.status === 'Atrasada'))
   ).length;
 
-  // Adicionar novo animal ao rebanho
+  // Adicionar novo caprino Boer ao rebanho
   const handleSaveAnimal = (newAnimal) => {
     setAnimals(prev => [newAnimal, ...prev]);
-    setSelectedAnimal(newAnimal); // abre a ficha do animal recém cadastrado
+    setSelectedAnimal(newAnimal); // abre a ficha do caprino recém cadastrado
   };
 
   return (
@@ -84,7 +84,7 @@ export default function App() {
         onClose={() => setSelectedAnimal(null)}
       />
 
-      {/* Modal de Cadastro de Novo Animal */}
+      {/* Modal de Cadastro de Novo Caprino Boer */}
       <AnimalFormModal
         isOpen={isNewAnimalModalOpen}
         onClose={() => setIsNewAnimalModalOpen(false)}

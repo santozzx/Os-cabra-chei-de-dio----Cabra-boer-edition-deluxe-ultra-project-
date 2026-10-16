@@ -19,7 +19,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 39.5, // cm
     famachaScore: 1, // 1 (Vermelho ótimo)
     reproductiveStatus: "Em Cobertura Ativa",
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-buck.jpg",
     awards: ["Grande Campeão Nacional Fenagro 2024", "Melhor Conformação de Carcaça ABCC"],
     lot: "Piquete 01 - Reprodutores de Elite",
     temperament: "Dócil e Ativo",
@@ -78,7 +78,7 @@ export const MOCK_ANIMALS = [
     famachaScore: 2,
     reproductiveStatus: "Gestante (122 dias)",
     expectedBirthDate: "2026-11-14",
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-doe.jpg",
     awards: ["Matriz Destaque Parto Gemelar 2023"],
     lot: "Maternidade Piquete A",
     temperament: "Excelente Habilidade Materna",
@@ -133,7 +133,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 41.0,
     famachaScore: 1,
     reproductiveStatus: "Doador de Sêmen Congelado",
-    photo: "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-profile.jpg",
     awards: ["Tetra-Campeão Nacional", "Troféu Ouro Boer Brasil"],
     lot: "Central de Inseminação Santa Luzia",
     temperament: "Imponente e Rústico",
@@ -187,7 +187,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 37.0,
     famachaScore: 1,
     reproductiveStatus: "Em Cobertura Ativa",
-    photo: "https://images.unsplash.com/photo-1560807707-8cc77767d783?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-profile.jpg",
     awards: ["Campeão Macho Jovem Expointer 2024"],
     lot: "Piquete 02 - Jovens Reprodutores",
     temperament: "Vivaz e Excelente Libido",
@@ -241,7 +241,7 @@ export const MOCK_ANIMALS = [
     famachaScore: 3, // ALERTA FAMACHA
     reproductiveStatus: "Doadora de Embriões (Descanso)",
     expectedBirthDate: null,
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-doe.jpg",
     awards: ["Melhor Úbere e Harmonia Fenotípica Feicorte"],
     lot: "Piquete 04 - Matrizes Doadoras",
     temperament: "Calma e Manuseio Fácil",
@@ -296,7 +296,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 38.5,
     famachaScore: 1,
     reproductiveStatus: "Em Cobertura Ativa",
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-buck.jpg",
     awards: ["Reservado Grande Campeão do Agreste 2024"],
     lot: "Piquete 01 - Reprodutores de Elite",
     temperament: "Extremamente Rústico",
@@ -350,7 +350,7 @@ export const MOCK_ANIMALS = [
     famachaScore: 2,
     reproductiveStatus: "Em Idade de Cobertura (Borrega)",
     expectedBirthDate: null,
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-doe.jpg",
     awards: ["1º Prêmio Categoria Borrega Maior"],
     lot: "Piquete 03 - Fêmeas Recria",
     temperament: "Vivaz e Sociável",
@@ -402,7 +402,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 35.0,
     famachaScore: 1,
     reproductiveStatus: "Em Treinamento de Monta",
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-buck.jpg",
     awards: ["Campeão Macho Menor Petrolina Caprishow 2024"],
     lot: "Piquete 02 - Jovens Reprodutores",
     temperament: "Excelente Mansidão e Porte",
@@ -455,7 +455,7 @@ export const MOCK_ANIMALS = [
     famachaScore: 1,
     reproductiveStatus: "Em Desmame / Desenvolvimento",
     expectedBirthDate: null,
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-doe.jpg",
     awards: ["Promessa Futura Exposição de Caruaru"],
     lot: "Creep Feeding Lote 01",
     temperament: "Curiosa e Rápida Adaptação ao Concentrado",
@@ -507,7 +507,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 29.0,
     famachaScore: 2,
     reproductiveStatus: "Em Desenvolvimento",
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-buck.jpg",
     awards: ["Destaque de Ganho em Confinamento Pré-Desmame"],
     lot: "Creep Feeding Lote 01",
     temperament: "Voraz e Ativo no Cocho",
@@ -559,7 +559,7 @@ export const MOCK_ANIMALS = [
     famachaScore: 1,
     reproductiveStatus: "Gestante (84 dias)",
     expectedBirthDate: "2026-12-22",
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-doe.jpg",
     awards: ["Matriarca de Ouro - Mais de 16 Progênies Registradas"],
     lot: "Piquete 04 - Matrizes Doadoras",
     temperament: "Matriarca Pacífica",
@@ -612,7 +612,7 @@ export const MOCK_ANIMALS = [
     scrotalCircumference: 40.0,
     famachaScore: 1,
     reproductiveStatus: "Banco de Sêmen Disponível",
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80",
+    photo: "/images/boer-buck.jpg",
     awards: ["Campeão de Carcaça e Paleta Larga Centro-Oeste"],
     lot: "Central de Inseminação Santa Luzia",
     temperament: "Vigoroso e Dócil",
@@ -649,7 +649,7 @@ export const MOCK_ANIMALS = [
       { date: "2024-09-10", score: 1, eyeColor: "Vermelho Vivo", treated: false }
     ]
   }
-];
+].map(animal => ({ ...animal, species: 'Caprino', breed: 'Boer' }));
 
 // Dados comparativos de Curva de Crescimento Padrão Raça Boer vs Rebanho Atual
 export const GROWTH_BENCHMARK_DATA = [
@@ -683,7 +683,7 @@ export const SEMEN_BANK = [
     breeder: "Capril Chei de Dio & Fazenda Santa Luzia",
     status: "Disponível para Envio em Botijão N2",
     dnaVerified: true,
-    photo: "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?auto=format&fit=crop&w=600&q=80"
+    photo: "/images/boer-profile.jpg"
   },
   {
     id: "SMN-02",
@@ -696,7 +696,7 @@ export const SEMEN_BANK = [
     breeder: "Capril Chei de Dio",
     status: "Disponível para Envio em Botijão N2",
     dnaVerified: true,
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=600&q=80"
+    photo: "/images/boer-buck.jpg"
   },
   {
     id: "SMN-03",
@@ -709,7 +709,7 @@ export const SEMEN_BANK = [
     breeder: "Capril Chei de Dio & Parceiros",
     status: "Últimas Doses",
     dnaVerified: true,
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=600&q=80"
+    photo: "/images/boer-buck.jpg"
   }
 ];
 

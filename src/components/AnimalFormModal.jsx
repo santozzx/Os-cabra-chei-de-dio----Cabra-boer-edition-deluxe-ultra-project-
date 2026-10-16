@@ -33,6 +33,8 @@ export default function AnimalFormModal({ isOpen, onClose, onSaveAnimal }) {
 
     const newAnimal = {
       id: `BOER-${Date.now().toString().slice(-4)}`,
+      species: 'Caprino',
+      breed: 'Boer',
       name: formData.name,
       rgn: formData.rgn || `BR-BOER-${new Date().getFullYear()}-${Math.floor(1000 + Math.random() * 9000)}`,
       tattoo: formData.tattoo || `TAT-${Math.floor(10 + Math.random() * 89)}`,
@@ -50,8 +52,8 @@ export default function AnimalFormModal({ isOpen, onClose, onSaveAnimal }) {
       reproductiveStatus: formData.reproductiveStatus,
       lot: formData.lot,
       photo: formData.gender === 'Macho' 
-        ? "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=800&q=80"
-        : "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=800&q=80",
+        ? "/images/boer-buck.jpg"
+        : "/images/boer-doe.jpg",
       awards: formData.awards ? [formData.awards] : ['Cadastro Recente Plantel'],
       temperament: 'Dócil e Rústico',
       carcassScore: formData.carcassScore,
@@ -99,7 +101,7 @@ export default function AnimalFormModal({ isOpen, onClose, onSaveAnimal }) {
             </div>
             <div>
               <h3 className="text-xl font-black">Cadastrar Novo Caprino Boer</h3>
-              <p className="text-xs text-stone-200">Adicione um novo animal ao banco de dados zootécnico</p>
+              <p className="text-xs text-stone-200">Adicione um novo caprino Boer ao banco de dados zootécnico</p>
             </div>
           </div>
           <button onClick={onClose} className="p-2 rounded-full hover:bg-white/15 text-white">
@@ -112,7 +114,7 @@ export default function AnimalFormModal({ isOpen, onClose, onSaveAnimal }) {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="text-xs font-bold text-boer-bark block mb-1">Nome do Animal *</label>
+              <label className="text-xs font-bold text-boer-bark block mb-1">Nome do Caprino Boer *</label>
               <input
                 type="text"
                 required
@@ -321,7 +323,7 @@ export default function AnimalFormModal({ isOpen, onClose, onSaveAnimal }) {
               type="submit"
               className="px-6 py-2.5 rounded-xl bg-boer-copper hover:bg-boer-copperHover text-white font-bold text-sm shadow-md shadow-boer-copper/30 transition-all"
             >
-              Salvar Animal no Plantel
+              Salvar Caprino Boer no Plantel
             </button>
           </div>
 

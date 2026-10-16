@@ -161,7 +161,7 @@ export default function TechnicalGuide() {
               Defeitos Desclassificatórios & Critérios de Descarte
             </h3>
             <p className="text-xs text-red-800">
-              Animais portadores destas anomalias não devem receber RGN definitivo e devem ser descartados da reprodução pura
+              Caprinos Boer portadores destas anomalias não devem receber RGN definitivo e devem ser descartados da reprodução pura
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function TechnicalGuide() {
               Prognatismo ou Braquignatismo (Mordedura Incorreta)
             </div>
             <p className="text-stone-600">
-              Quando a mandíbula inferior avança ou recua em relação à arcada superior, impedindo o animal de pastar eficientemente na caatinga ou capim seco.
+              Quando a mandíbula inferior avança ou recua em relação à arcada superior, impedindo o caprino de pastar eficientemente na caatinga ou capim seco.
             </p>
           </div>
 
@@ -222,7 +222,7 @@ export default function TechnicalGuide() {
               </h3>
             </div>
             <p className="text-xs text-stone-500 mt-0.5">
-              Marque os itens observados no animal durante a vistoria no tronco de contenção
+              Marque os itens observados no caprino durante a vistoria no tronco de contenção
             </p>
           </div>
 

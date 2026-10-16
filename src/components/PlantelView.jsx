@@ -27,7 +27,7 @@ export default function PlantelView({
   const [viewMode, setViewMode] = useState('grid'); // 'grid' | 'table'
 
   // Filtragem dos animais
-  const filteredAnimals = animals.filter(animal => {
+  const filteredAnimals = animals.filter(animal => animal.species === 'Caprino' && animal.breed === 'Boer').filter(animal => {
     const matchesSearch = 
       animal.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       animal.rgn.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -164,7 +164,7 @@ export default function PlantelView({
 
         {/* Status da Filtragem */}
         <div className="flex items-center justify-between text-xs text-boer-muted pt-2 border-t border-stone-100">
-          <span>Mostrando <strong>{filteredAnimals.length}</strong> de <strong>{animals.length}</strong> caprinos registrados</span>
+          <span>Mostrando <strong>{filteredAnimals.length}</strong> caprinos Boer de <strong>{animals.length}</strong> caprinos registrados</span>
           {(selectedGrade !== 'ALL' || selectedCategory !== 'ALL' || selectedGender !== 'ALL' || searchTerm) && (
             <button
               onClick={() => {
@@ -273,7 +273,7 @@ export default function PlantelView({
             <table className="w-full text-xs text-left">
               <thead className="bg-boer-cream text-stone-700 font-bold border-b border-boer-border uppercase tracking-wider text-[11px]">
                 <tr>
-                  <th className="py-3.5 px-4">Animal / Identificação</th>
+                  <th className="py-3.5 px-4">Caprino Boer / Identificação</th>
                   <th className="py-3.5 px-4">Grau / Cat</th>
                   <th className="py-3.5 px-4">Peso Vivo</th>
                   <th className="py-3.5 px-4">GPD (g/dia)</th>

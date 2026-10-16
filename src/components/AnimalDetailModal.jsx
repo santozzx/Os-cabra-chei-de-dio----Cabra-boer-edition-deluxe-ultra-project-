@@ -193,7 +193,7 @@ export default function AnimalDetailModal({ animal, onClose, onSelectPedigreeAni
               {/* Diagrama de Pedigree */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                 
-                {/* Animal Selecionado */}
+                {/* Caprino Boer selecionado */}
                 <div className="p-4 rounded-2xl bg-boer-copperSoft border-2 border-boer-copper text-center flex flex-col justify-center">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-boer-copper">Indivíduo</span>
                   <h4 className="text-base font-extrabold text-boer-bark mt-1">{animal.name}</h4>
