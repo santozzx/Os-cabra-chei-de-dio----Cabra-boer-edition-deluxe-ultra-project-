@@ -4,7 +4,6 @@ import Dashboard from './components/Dashboard';
 import PlantelView from './components/PlantelView';
 import ReproductionModule from './components/ReproductionModule';
 import SanitaryModule from './components/SanitaryModule';
-import MarketplaceModule from './components/MarketplaceModule';
 import TechnicalGuide from './components/TechnicalGuide';
 import AnimalDetailModal from './components/AnimalDetailModal';
 import AnimalFormModal from './components/AnimalFormModal';
@@ -74,10 +73,6 @@ export default function App() {
           />
         )}
 
-        {activeTab === 'marketplace' && (
-          <MarketplaceModule />
-        )}
-
         {activeTab === 'guia' && (
           <TechnicalGuide />
         )}
@@ -105,19 +100,19 @@ export default function App() {
         onNavigateToTab={(tab) => setActiveTab(tab)}
       />
 
-      {/* Footer AgroTech Corporativo */}
+      {/* Footer dedicado ao manejo de cabras Boer */}
       <footer className="bg-white border-t border-boer-border/80 py-6 text-xs text-boer-muted mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center space-x-2">
             <div className="w-5 h-5 rounded-md bg-boer-copper text-white flex items-center justify-center font-bold text-[10px]">
               BM
             </div>
-            <span className="font-bold text-boer-bark">BoerManager Deluxe</span>
-            <span>• Projeto "Os Cabra Chei de Dio"</span>
+            <span className="font-bold text-boer-bark">BoerManager</span>
+            <span>• Gestão de cabras Boer</span>
           </div>
 
           <div className="text-center sm:text-right">
-            <span>Foco: Corte de Alto Rendimento • Adaptação: Nordeste, Sul e Sudeste</span>
+            <span>Foco: manejo, genética, reprodução e saúde de cabras Boer</span>
             <span className="hidden sm:inline"> • </span>
             <span className="text-boer-copper font-semibold">Seleção Genética PO/PC</span>
           </div>

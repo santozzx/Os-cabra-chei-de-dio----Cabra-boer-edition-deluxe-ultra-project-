@@ -8,7 +8,6 @@ import {
   CheckCircle2, 
   AlertCircle, 
   Calculator, 
-  ShoppingBag,
   ShieldCheck,
   Award
 } from 'lucide-react';

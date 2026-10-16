@@ -1,4 +1,4 @@
-// Banco de Dados Mockado Realista - BoerManager Deluxe
+// Banco de Dados Mockado - gestão de cabras Boer
 // Raça Boer: Corte de Alto Rendimento, Adaptação Semiárido, Sul e Sudeste
 
 export const MOCK_ANIMALS = [
@@ -710,70 +710,6 @@ export const SEMEN_BANK = [
     status: "Últimas Doses",
     dnaVerified: true,
     photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=600&q=80"
-  }
-];
-
-// Marketplace Boer Deluxe
-export const MARKETPLACE_ITEMS = [
-  {
-    id: "MKT-01",
-    title: "Bastião do Cobre PO - Reprodutor de Pista",
-    type: "Reprodutor",
-    bloodGrade: "PO",
-    price: 18500.00,
-    weight: 128.5,
-    age: "2 anos e 6 meses",
-    location: "Petrolina - PE (Vale do São Francisco)",
-    breeder: "Capril Chei de Dio",
-    awards: "Grande Campeão Nacional Fenagro 2024",
-    photo: "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&w=600&q=80",
-    featured: true,
-    status: "Disponível"
-  },
-  {
-    id: "MKT-02",
-    title: "Pérola da Serra PC - Prenhe de Campeão",
-    type: "Matriz",
-    bloodGrade: "PC",
-    price: 6800.00,
-    weight: 84.0,
-    age: "3 anos",
-    location: "Serra Talhada - PE",
-    breeder: "Criatório Sertão Forte",
-    awards: "Gêmeos nas últimas 2 parições",
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=600&q=80",
-    featured: false,
-    status: "Disponível"
-  },
-  {
-    id: "MKT-03",
-    title: "Lote de 5 Borregas Boer PO (Recria Superior)",
-    type: "Lote de Matrizes",
-    bloodGrade: "PO",
-    price: 26000.00,
-    weight: 52.0, // Média
-    age: "11 a 13 meses",
-    location: "Feira de Santana - BA",
-    breeder: "Agropecuária Boer Brasil",
-    awards: "Genealogia 100% Sul-Africana",
-    photo: "https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=600&q=80",
-    featured: true,
-    status: "Disponível"
-  },
-  {
-    id: "MKT-04",
-    title: "Pacote 10 Doses Sêmen - Rei da Caatinga Boer",
-    type: "Sêmen Congelado",
-    bloodGrade: "PO",
-    price: 3200.00,
-    weight: null,
-    age: "Sêmen Criopreservado",
-    location: "Envio para todo Brasil com Botijão",
-    breeder: "Capril Chei de Dio",
-    awards: "Taxa de Fertilização In Vitro > 86%",
-    photo: "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?auto=format&fit=crop&w=600&q=80",
-    featured: true,
-    status: "Disponível"
   }
 ];
 

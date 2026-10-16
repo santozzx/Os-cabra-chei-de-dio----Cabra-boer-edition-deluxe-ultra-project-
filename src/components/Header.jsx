@@ -11,7 +11,6 @@ import {
   Dna,
   HeartHandshake,
   Stethoscope,
-  ShoppingBag,
   BookOpen,
   Sun,
   Scale
@@ -33,7 +32,6 @@ export default function Header({
     { id: 'plantel', label: 'Plantel & Genealogia', icon: Dna, badge: `${animalsCount}` },
     { id: 'reproducao', label: 'Controle Reprodutivo', icon: HeartHandshake },
     { id: 'sanitario', label: 'Sanitário & Nutrição', icon: Stethoscope, alertBadge: pendingAlertsCount > 0 },
-    { id: 'marketplace', label: 'Boer Marketplace', icon: ShoppingBag, badge: 'Deluxe' },
     { id: 'guia', label: 'Guia da Raça Boer', icon: BookOpen }
   ];
 
@@ -59,12 +57,12 @@ export default function Header({
                   </h1>
                   <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-boer-gold/20 text-boer-gold border border-boer-gold/40">
                     <Sparkles className="w-2.5 h-2.5 mr-1 text-boer-gold" />
-                    DELUXE
+                    CABRAS BOER
                   </span>
                 </div>
                 <div className="flex items-center text-xs text-boer-muted font-medium">
                   <MapPin className="w-3 h-3 mr-1 text-boer-copper" />
-                  <span>Capril Chei de Dio • Santa Luzia, PE</span>
+                  <span>Capril Boer • Santa Luzia, PE</span>
                 </div>
               </div>
             </button>

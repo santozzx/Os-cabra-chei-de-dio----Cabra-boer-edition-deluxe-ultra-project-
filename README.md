@@ -1,4 +1,4 @@
-# 🐐 BoerManager Deluxe - Os Cabra Chei de Dio (Cabra Boer Edition Deluxe Ultra)
+# 🐐 BoerManager — Gestão de Cabras Boer
 
 > **Sistema AgroTech Web Moderno e Responsivo Especializado na Gestão de Rebanhos e Seleção Genética de Caprinos da Raça Boer.**
 
@@ -6,7 +6,7 @@
 
 ## 🌾 Sobre o Projeto
 
-O **BoerManager Deluxe** é uma aplicação Single Page Application (SPA) desenvolvida para zootecnistas, criadores, tratadores e administradores de capris focados na criação de caprinos da **Raça Boer**. 
+O **BoerManager** é uma aplicação Single Page Application (SPA) desenvolvida exclusivamente para zootecnistas, criadores e tratadores de caprinos da **Raça Boer**.
 
 Tomando como base conceitual o projeto original:
 - **Espécie / Raça**: Caprino Boer (*Capra hircus*)
@@ -39,7 +39,7 @@ Tomando como base conceitual o projeto original:
 - **Distribuição do Rebanho**: Estrutura etária e reprodutiva com 78% de animais PO.
 - **Próximos Partos & Top Reprodutores**: Acesso rápido às fêmeas no terço final de gestação e machos recordistas de ganho de peso.
 
-### 2. 🧬 Plantel & Genealogia (O "Cabra Chei de Dio")
+### 2. 🧬 Plantel Boer & Genealogia
 - Tabela e Visualização em Cards com busca em tempo real por Nome, RGN, Tatuagem e Brinco.
 - Filtros combináveis por **Grau de Sangue (PO/PC)**, **Categoria** e **Sexo**.
 - **Modal de Detalhes do Animal**:
@@ -65,12 +65,7 @@ Tomando como base conceitual o projeto original:
 - **Calculadora Nutricional de Matéria Seca (% PV)**:
   - Dimensiona a quantidade diária de volumoso fresco (silagem/capim) e ração concentrada para manutenção, gestação final, lactação gemelar e terminação duplo lombo.
 
-### 5. 🏷️ Boer Marketplace & Genética Deluxe
-- Espaço estilo leilão de elite para compra e venda de Reprodutores PO, Matrizes Doadoras e Palhetas de Sêmen.
-- Filtros por faixa de valor, categoria e premiações.
-- Simulador interativo de envio de proposta e cotação de frete rural com o criador.
-
-### 6. 📖 Guia Técnico da Raça Boer
+### 5. 📖 Guia Técnico da Raça Boer
 - Padrão oficial ABCC:
   - Cabeça, perfil subconvexo com chanfro romano, chifres escuros e orelhas longas pendentes sem dobras.
   - Pelagem clássica e importância vital da derme pigmentada escura contra radiação ultravioleta.
@@ -112,4 +107,4 @@ O aplicativo estará disponível em `http://localhost:5173`.
 
 ---
 
-*Capril Chei de Dio • Santa Luzia, PE • Foco em Seleção Genética de Elite Boer*
+*Capril Boer • Santa Luzia, PE • Foco em Seleção Genética de Elite Boer*

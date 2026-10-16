@@ -68,13 +68,13 @@ export default function Dashboard({
         <div className="relative z-10 max-w-3xl">
           <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-boer-gold/20 text-boer-gold border border-boer-gold/40 mb-3">
             <Sparkles className="w-3.5 h-3.5 mr-1.5" />
-            SISTEMA INTEGRADO AGROTECH BOER DELUXE
+            GESTÃO ESPECIALIZADA DE CABRAS BOER
           </div>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white mb-2">
-            Capril Chei de Dio <span className="text-boer-gold font-serif italic">— Edição Boer 2026</span>
+            Capril Boer <span className="text-boer-gold font-serif italic">— Manejo de excelência</span>
           </h2>
           <p className="text-stone-300 text-sm sm:text-base leading-relaxed mb-6">
-            Gestão de alta precisão para caprinos Boer de corte. Foco em ganho de peso acelerado, conformação de carcaça duplo lombo, rusticidade e seleção de linhagens sul-africanas PO e PC.
+            Controle completo do rebanho Boer: identificação, genealogia, ganho de peso, reprodução, sanidade e seleção de animais PO e PC.
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
@@ -252,7 +252,7 @@ export default function Dashboard({
                 <Area 
                   type="monotone" 
                   dataKey="rebanhoMedio" 
-                  name="Rebanho Capril Chei de Dio" 
+                  name="Rebanho Boer Atual" 
                   stroke="#8B321D" 
                   strokeWidth={3}
                   fillOpacity={1} 
@@ -273,7 +273,7 @@ export default function Dashboard({
           <div className="mt-4 p-3 bg-boer-cream rounded-xl text-xs text-boer-bark flex items-start space-x-2">
             <CheckCircle2 className="w-4 h-4 text-boer-green flex-shrink-0 mt-0.5" />
             <p>
-              <strong>Diagnóstico Zootécnico:</strong> O lote de desmame e recria do Capril Chei de Dio está apresentando peso médio 17.7% superior ao padrão nacional da raça, evidenciando a eficácia do creep-feeding e da seleção de duplo lombo.
+              <strong>Diagnóstico Zootécnico:</strong> O lote de desmame e recria Boer está apresentando peso médio 17.7% superior ao padrão nacional da raça, evidenciando a eficácia do creep-feeding e da seleção de duplo lombo.
             </p>
           </div>
         </div>
@@ -286,7 +286,7 @@ export default function Dashboard({
                 Estrutura do Rebanho
               </h3>
               <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-boer-copperSoft text-boer-copper">
-                96 Animais
+                {totalHead} Animais
               </span>
             </div>
 
@@ -343,7 +343,7 @@ export default function Dashboard({
 
       </div>
 
-      {/* Seção Inferior: Próximos Partos e Top Reprodutores Chei de Dio */}
+      {/* Seção Inferior: Próximos Partos e Top Reprodutores Boer */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         
         {/* Próximos Partos Estimados */}
@@ -407,7 +407,7 @@ export default function Dashboard({
           )}
         </div>
 
-        {/* Top Reprodutores Chei de Dio */}
+        {/* Top Reprodutores Boer */}
         <div className="boer-card p-5 sm:p-6">
           <div className="flex items-center justify-between mb-4 pb-3 border-b border-stone-100">
             <div className="flex items-center space-x-2">

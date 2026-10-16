@@ -52,7 +52,7 @@ export default function PlantelView({
               Plantel & Genealogia
             </h2>
             <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-boer-copperSoft text-boer-copper border border-boer-copper/30">
-              O "Cabra Chei de Dio"
+              Rebanho Boer
             </span>
           </div>
           <p className="text-xs sm:text-sm text-boer-muted mt-1">
@@ -241,7 +241,7 @@ export default function PlantelView({
 
                 {/* Linhagem */}
                 <p className="text-xs text-stone-600 mt-2 truncate">
-                  Pai: <strong className="text-stone-800">{animal.pedigree?.father?.name || 'Chei de Dio'}</strong>
+                  Pai: <strong className="text-stone-800">{animal.pedigree?.father?.name || 'Não informado'}</strong>
                 </p>
               </div>
 
