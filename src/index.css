@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-boer-cream text-boer-bark font-sans;
+  }
+}
+
+/* Custom scrollbar for desktop and field tablets */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F0ECE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B9AD;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B321D;
+}
+
+/* Custom badges and micro-interactions */
+.boer-card {
+  @apply bg-white rounded-2xl border border-boer-border/70 shadow-boer-sm transition-all duration-200 hover:shadow-boer-md;
+}
+
+.boer-badge-po {
+  @apply bg-amber-100 text-amber-900 border border-amber-300 font-semibold px-2.5 py-0.5 rounded-full text-xs;
+}
+
+.boer-badge-pc {
+  @apply bg-stone-100 text-stone-700 border border-stone-300 font-medium px-2.5 py-0.5 rounded-full text-xs;
+}
