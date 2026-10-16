@@ -437,7 +437,7 @@ export default function AnimalDetailModal({ animal, onClose, onSelectPedigreeAni
         {/* Rodapé do Modal */}
         <div className="px-6 py-4 bg-stone-50 border-t border-boer-border flex items-center justify-between">
           <div className="text-xs text-stone-500">
-            Registro zootécnico de cabra Boer • Sistema BoerManager
+            Registro zootécnico de cabra Boer • Casa da Cabra
           </div>
           <div className="flex items-center space-x-2">
             <button

@@ -1,12 +1,12 @@
-# 🐐 BoerManager — Gestão de Cabras Boer
+# 🐐 Casa da Cabra — Manejo de Cabras Boer
 
-> **Sistema AgroTech Web Moderno e Responsivo Especializado na Gestão de Rebanhos e Seleção Genética de Caprinos da Raça Boer.**
+> **Caderno digital para ajudar donos e criadores a cuidar melhor das suas cabras Boer.**
 
 ---
 
 ## 🌾 Sobre o Projeto
 
-O **BoerManager** é uma aplicação Single Page Application (SPA) desenvolvida exclusivamente para zootecnistas, criadores e tratadores de caprinos da **Raça Boer**.
+O **Casa da Cabra** é uma aplicação web feita exclusivamente para donos, criadores e tratadores de cabras **Boer**.
 
 Tomando como base conceitual o projeto original:
 - **Espécie / Raça**: Caprino Boer (*Capra hircus*)
@@ -16,17 +16,15 @@ Tomando como base conceitual o projeto original:
 
 ---
 
-## 🎨 Guia de Estilo & Design System (Boer Theme)
+## 🎨 Tema de Fazenda Caprina
 
-- **Estilo Visual**: AgroTech Rústico-Premium (clean, corporativo e com "Modo Curral" de alto contraste para campo aberto).
+- **Estilo Visual**: rústico, acolhedor e prático para a rotina do produtor no pasto e no curral.
 - **Paleta de Cores**:
-  - `Primary / Boer Copper`: `#8B321D` (Tom clássico do pelo de cobre da cabeça da cabra Boer)
-  - `Secondary / Pasture Green`: `#2E5A27` (Indicadores de pastagem, saúde e ganho de peso)
-  - `Accent / Gold Trophy`: `#D49A37` (Destaque para reprodutores de pista e genética de elite)
-  - `Background / Leather Off-White`: `#FAF7F2` (Fundo descansado para leitura contínua)
-  - `Surface / Clean White`: `#FFFFFF` (Cards, tabelas e modais)
-  - `Dark Neutral / Deep Bark`: `#1F1917` (Textos e contrastes tipográficos)
-- **Tipografia**: *Plus Jakarta Sans* e *Inter*.
+- `Marrom da terra`: `#68452F` (solo, madeira e cercas da fazenda)
+  - `Verde do pasto`: `#55733E` (forragem, saúde e natureza)
+  - `Creme do leite`: `#F7F1E5` (fundo leve e acolhedor)
+  - `Branco leite`: `#FFFDF8` (áreas de leitura e fichas das cabras)
+- **Tipografia**: *Playfair Display* nos títulos e *Plus Jakarta Sans* nos dados.
 - **Ícones**: *Lucide React*.
 
 ---
@@ -107,4 +105,4 @@ O aplicativo estará disponível em `http://localhost:5173`.
 
 ---
 
-*Capril Boer • Santa Luzia, PE • Foco em Seleção Genética de Elite Boer*
+*Casa da Cabra • Santa Luzia, PE • Cuidado diário de cabras Boer*

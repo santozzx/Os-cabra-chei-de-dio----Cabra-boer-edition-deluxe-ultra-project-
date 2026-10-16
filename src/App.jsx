@@ -107,14 +107,14 @@ export default function App() {
             <div className="w-5 h-5 rounded-md bg-boer-copper text-white flex items-center justify-center font-bold text-[10px]">
               BM
             </div>
-            <span className="font-bold text-boer-bark">BoerManager</span>
-            <span>• Gestão de cabras Boer</span>
+            <span className="font-bold text-boer-bark">Casa da Cabra</span>
+            <span>• Caderno de manejo caprino</span>
           </div>
 
           <div className="text-center sm:text-right">
             <span>Foco: manejo, genética, reprodução e saúde de cabras Boer</span>
             <span className="hidden sm:inline"> • </span>
-            <span className="text-boer-copper font-semibold">Seleção Genética PO/PC</span>
+            <span className="text-boer-green font-semibold">Cuidado, saúde e alimentação</span>
           </div>
         </div>
       </footer>

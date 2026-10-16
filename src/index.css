@@ -2,37 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light;
+  --farm-soil: #68452f;
+  --farm-soil-dark: #3c2a20;
+  --farm-pasture: #55733e;
+  --farm-cream: #f7f1e5;
+  --farm-milk: #fffdf8;
+  --farm-line: #dfd1bc;
+  --farm-ink: #34271f;
+  --farm-muted: #806f60;
+}
+
 @layer base {
+  html { background: var(--farm-cream); }
   body {
-    @apply bg-boer-cream text-boer-bark font-sans;
+    @apply antialiased;
+    margin: 0;
+    background:
+      radial-gradient(circle at 12% 0%, rgba(181, 143, 92, .13), transparent 28rem),
+      linear-gradient(180deg, #fbf7ee 0%, var(--farm-cream) 52%, #f1e8d9 100%);
+    color: var(--farm-ink);
+    font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
   }
+  button, input, select { font: inherit; }
 }
 
-/* Custom scrollbar for desktop and field tablets */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #F0ECE6;
-}
-::-webkit-scrollbar-thumb {
-  background: #C4B9AD;
-  border-radius: 9999px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #8B321D;
+::selection { background: #55733e; color: #fffdf8; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #eee4d4; }
+::-webkit-scrollbar-thumb { background: #b79a78; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #68452f; }
+
+@layer components {
+  .boer-card {
+    @apply rounded-2xl border bg-white shadow-sm transition-all duration-200;
+    border-color: var(--farm-line);
+    box-shadow: 0 8px 24px rgba(88, 61, 39, .06);
+  }
+  .boer-card:hover { box-shadow: 0 12px 30px rgba(88, 61, 39, .11); }
+  .farm-paper { background-image: linear-gradient(rgba(104,69,47,.035) 1px, transparent 1px); background-size: 100% 5px; }
+  .farm-kicker { letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; font-weight: 800; color: var(--farm-muted); }
+  .boer-badge-po { @apply rounded-full px-2.5 py-0.5 text-xs font-semibold; background: #f2dfaa; color: #694b18; border: 1px solid #d7b96b; }
+  .boer-badge-pc { @apply rounded-full px-2.5 py-0.5 text-xs font-medium; background: #e8efe0; color: #3f6033; border: 1px solid #bfd0ae; }
 }
 
-/* Custom badges and micro-interactions */
-.boer-card {
-  @apply bg-white rounded-2xl border border-boer-border/70 shadow-boer-sm transition-all duration-200 hover:shadow-boer-md;
-}
-
-.boer-badge-po {
-  @apply bg-amber-100 text-amber-900 border border-amber-300 font-semibold px-2.5 py-0.5 rounded-full text-xs;
-}
-
-.boer-badge-pc {
-  @apply bg-stone-100 text-stone-700 border border-stone-300 font-medium px-2.5 py-0.5 rounded-full text-xs;
-}
+.animate-fadeIn { animation: fadeIn .35s ease-out both; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }

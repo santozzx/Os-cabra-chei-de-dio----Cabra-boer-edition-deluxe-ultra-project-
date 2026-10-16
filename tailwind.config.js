@@ -1,44 +1,46 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
         boer: {
-          copper: '#8B321D',      // Primary Boer Copper
-          copperHover: '#742715',
-          copperLight: '#B94A2F',
-          copperSoft: '#F6EAE6',
-          green: '#2E5A27',       // Secondary Pasture Green
-          greenHover: '#23461E',
-          greenLight: '#437F39',
-          greenSoft: '#EBF4EA',
-          gold: '#D49A37',        // Accent Gold Trophy
-          goldHover: '#B8822B',
-          goldLight: '#F3C472',
-          goldSoft: '#FCF5E8',
-          cream: '#FAF7F2',       // Leather Off-White
-          surface: '#FFFFFF',     // Clean White
-          bark: '#1F1917',        // Deep Bark
-          barkLight: '#382F2D',
-          muted: '#736B66',
-          border: '#E8E1D8',
-          borderLight: '#F0ECE6'
+          soil: '#68452F',
+          soilHover: '#513624',
+          soilDark: '#3C2A20',
+          soilSoft: '#F2E6D8',
+          copper: '#8A5A3C',
+          copperHover: '#70452D',
+          copperLight: '#B47A53',
+          copperSoft: '#F2E6D8',
+          green: '#55733E',
+          greenHover: '#3E5B2D',
+          greenLight: '#78975D',
+          greenSoft: '#E8F0DF',
+          gold: '#C59A50',
+          goldHover: '#946D2E',
+          goldLight: '#E4C985',
+          goldSoft: '#F8F0D8',
+          cream: '#F7F1E5',
+          surface: '#FFFDF8',
+          bark: '#34271F',
+          barkLight: '#4A382C',
+          muted: '#806F60',
+          border: '#DFD1BC',
+          borderLight: '#EEE4D4'
         }
       },
       fontFamily: {
         sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif']
       },
       boxShadow: {
-        'boer-sm': '0 1px 3px rgba(31, 25, 23, 0.05), 0 1px 2px rgba(31, 25, 23, 0.03)',
-        'boer-md': '0 4px 6px -1px rgba(31, 25, 23, 0.07), 0 2px 4px -2px rgba(31, 25, 23, 0.05)',
-        'boer-lg': '0 10px 15px -3px rgba(31, 25, 23, 0.08), 0 4px 6px -4px rgba(31, 25, 23, 0.04)',
-        'boer-glow': '0 0 15px rgba(212, 154, 55, 0.25)',
+        'boer-sm': '0 2px 6px rgba(88, 61, 39, .07)',
+        'boer-md': '0 8px 18px rgba(88, 61, 39, .10)',
+        'boer-lg': '0 16px 30px rgba(88, 61, 39, .13)',
+        'boer-glow': '0 0 18px rgba(197, 154, 80, .25)'
       }
-    },
+    }
   },
-  plugins: [],
-}
+  plugins: []
+};
